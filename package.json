@@ -9,12 +9,6 @@
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "src/**/*:": [
-      "yarn lint"
-    ],
-    "*.js": "eslint --cache --fix"
-  },
   "dependencies": {
     "next": "12.1.0",
     "react": "17.0.2",
