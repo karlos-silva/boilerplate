@@ -1,7 +1,10 @@
+import * as S from './styles'
+
 const Main = () => (
-  <main>
-    <h1>React Avançado</h1>
-  </main>
+  <S.Wrapper>
+    <S.Title>React Avançado</S.Title>
+    <S.Description>Boilerplate Typescript com Next</S.Description>
+  </S.Wrapper>
 )
 
 export default Main
