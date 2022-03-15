@@ -1,9 +1,12 @@
 import * as S from './styles'
 
-const Main = () => (
+const Main = ({
+  title = 'Boilerplate',
+  description = 'Boilerplate Typescript com Next'
+}) => (
   <S.Wrapper>
-    <S.Title>React Avançado</S.Title>
-    <S.Description>Boilerplate Typescript com Next</S.Description>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
   </S.Wrapper>
 )
 
