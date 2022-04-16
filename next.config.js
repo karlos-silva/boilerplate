@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true
 }
@@ -18,3 +17,7 @@ module.exports = withPWA({
 })
 
 // End PWA Config
+
+module.exports = {
+  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js']
+}
